@@ -1,0 +1,27 @@
+/* Extra white theme polish & soft UI */
+:root {
+  --shadow: 0 6px 30px rgba(0,0,0,0.08);
+  --radius: 16px;
+}
+
+.sidebar .sidebar-content { background: #ffffff !important; }
+
+/* Card-like containers */
+.block-container {
+  padding-top: 2rem !important;
+}
+
+div.stButton>button, .stDownloadButton>button {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid #EAEAEA;
+}
+
+.metric-card {
+  border-radius: var(--radius);
+  border: 1px solid #EFEFEF;
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+  background: #fff;
+  margin-bottom: 1rem;
+}
